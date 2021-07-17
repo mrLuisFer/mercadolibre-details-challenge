@@ -1,46 +1,38 @@
-# Getting Started with Create React App
+![MercadoLibre](./src/favicon.svg "MercadoLibre")
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# MercadoLibre challenge
 
-## Available Scripts
+Debemos crear un clon de [la página de detalle de producto](https://articulo.mercadolibre.com.ar/MLA-741093357-peluche-stitch-angel-lilo-1-metro-100cm-reales-gigante-_JM#position=5&search_layout=stack&type=item&tracking_id=839ad6c1-5098-41e7-914b-75a960f45a3b) de Mercado Libre.
 
-In the project directory, you can run:
+# API
 
-### `npm start`
+Podés encontrar los mocks necesarios para empezar a trabajar en `./src/product/mocks` con sus respectivos types. Sin embargo, algunos de los campos necesarios para completar la pantalla no están ahí, queda en vos agregarlos!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Definición funcional
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Debemos intentar llegar a un resultado visual lo más aproximado posible, siendo los siguientes los elementos requeridos.
 
-### `npm test`
+- Carousel que cambia de imágen al clickear (no en hover).
+- Area de detalle del producto (condición, cantidad vendida, título, precio).
+- Botones de `Comprar ahora` y `Agregar al carrito`.
+- Sección de preguntas y respuestas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+El resto de los elementos son opcionales pero altamente recomendados.
 
-### `npm run build`
+## Definiciones técnicas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- La aplicación debe estar publicada y debe ser accesible mediante un link.
+- El código de la aplicación debe estar subida a un repositorio de público acceso.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> El repositorio cuenta con TypeScript y ChakraUI ya configurados, pero cualquier librería puede ser usada.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Puntos extra
 
-### `npm run eject`
+- Poder agregar comentarios (no deben guardarse en ningun lado)
+- Poder puntuar opiniones
+- Poder ver opiniones por tipo
+- Modo oscuro
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+No te quedes acá, el repositorio ya tiene el router configurado para agregar la pantalla de inicio, agregá todas las pantallas que quieras!

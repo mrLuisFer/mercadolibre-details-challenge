@@ -1,9 +1,9 @@
-import React from "react";
-import {Switch, Route, Redirect} from "react-router-dom";
+import React from 'react'
+import { Switch, Route, Redirect } from 'react-router-dom'
 
-import DetailsScreen from "../product/screens/Details";
+import DetailsScreen from '../../product/screens/Details'
 
-import HomeScreen from "./screens/Home";
+import HomeScreen from '../screens/Home'
 
 const Routes: React.FC = () => {
   return (
@@ -12,7 +12,7 @@ const Routes: React.FC = () => {
       <Route component={DetailsScreen} path="/:product" />
       <Redirect to="/" />
     </Switch>
-  );
-};
+  )
+}
 
-export default Routes;
+export default Routes

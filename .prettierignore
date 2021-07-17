@@ -1,8 +1,6 @@
-node_modules/
-coverage/
-.idea/
-.vscode/
-build/
+# Ignore artifacts:
+build
+coverage
 /node_modules
 /.pnp
 .pnp.js

@@ -1,14 +1,13 @@
-import React from "react";
-import {Link, Text} from "@chakra-ui/react";
+import React from 'react'
 
 const HomeScreen: React.FC = () => {
   return (
     <div>
-      <Text>{`<HomeScreen />`}</Text>
+      <p>{`<HomeScreen />`}</p>
       <br />
-      <Link href="/productId">Ver página de detalle de producto</Link>
+      <a href="/productId">Ver página de detalle de producto</a>
     </div>
-  );
-};
+  )
+}
 
-export default HomeScreen;
+export default HomeScreen

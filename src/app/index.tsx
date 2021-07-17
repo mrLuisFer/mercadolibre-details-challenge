@@ -1,21 +1,20 @@
-import React from "react";
-import {Container, Stack, Box} from "@chakra-ui/react";
+import React from 'react'
 
-import Navbar from "../components/Navbar";
+import Navbar from '../components/Navbar'
 
-import Routes from "./routes";
+import Routes from './routes'
 
 const App: React.FC = () => {
   return (
-    <Container alignSelf="center" maxWidth="container.xl" paddingX={0}>
-      <Stack>
+    <div>
+      <div>
         <Navbar />
-        <Box>
+        <div>
           <Routes />
-        </Box>
-      </Stack>
-    </Container>
-  );
-};
+        </div>
+      </div>
+    </div>
+  )
+}
 
-export default App;
+export default App

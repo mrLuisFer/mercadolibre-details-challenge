@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react'
 
-import {Product} from "../types";
-import mock from "../mock";
+import { Product } from '../types'
+import mock from '../mock'
 
 interface Props {
-  product: Product;
+  product: Product
 }
 
-const DetailsScreen: React.FC<Props> = ({product = mock.product}) => {
-  return <div>{`<DetailsScreen /> para ${product.title}`}</div>;
-};
+const DetailsScreen: React.FC<Props> = ({ product = mock.product }) => {
+  return <div>{`<DetailsScreen /> para ${product.title}`}</div>
+}
 
-export default DetailsScreen;
+export default DetailsScreen

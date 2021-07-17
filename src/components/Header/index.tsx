@@ -1,5 +1,5 @@
 import WidthLayout from 'components/WidthLayout'
-import MeliLogo from 'assets/logo.png'
+import MeliLogo from 'assets/utils/logo.png'
 import HeaderText from 'assets/utils/header-right-text.webp'
 
 import Navbar from './Navbar'

@@ -1,33 +1,40 @@
 .header {
   background: var(--primary-yellow);
-  padding: 12px 0;
+  padding: 10px 0;
+  box-shadow: var(--box-shadow);
 
   &-content {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
   }
 
   &-logo {
+    cursor: pointer;
     user-select: none;
   }
 
   &-form {
     display: flex;
     height: 40px;
-    min-width: 600px;
+    max-width: 585px;
     padding-left: 1rem;
     background: var(--white);
     border-radius: 2px;
     border: 0 rgba(0, 0, 0, 0.2);
+    box-shadow: var(--box-shadow);
 
     &-input {
       border: none;
       outline: none;
-      width: 585px;
+      width: 570px;
 
       &:focus {
         outline: none;
+      }
+
+      &::placeholder {
+        opacity: 0.6;
       }
     }
 
@@ -36,6 +43,7 @@
       border: none;
       line-height: 1em;
       background: var(--white);
+      cursor: pointer;
 
       &::before {
         content: '';
@@ -52,5 +60,12 @@
         color: #666;
       }
     }
+  }
+
+  &-rightText {
+    max-width: 340px;
+    max-height: 39px;
+    user-select: none;
+    cursor: pointer;
   }
 }

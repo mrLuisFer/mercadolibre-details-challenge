@@ -1,5 +1,6 @@
 import WidthLayout from 'components/WidthLayout'
 import MeliLogo from 'assets/logo.png'
+import HeaderText from 'assets/utils/header-right-text.webp'
 
 import Navbar from './Navbar'
 
@@ -20,12 +21,20 @@ export default function Header() {
               className="header-form-input"
               id="header-input"
               name="header-form-input"
+              placeholder="Buscar productos, marcas y más"
               type="text"
             />
             <button className="header-form-search">
               <i className="fas fa-search header-form-search-icon" />
             </button>
           </div>
+          <img
+            alt="Comprá tu Point y QR a $189"
+            className="header-rightText"
+            draggable="false"
+            src={HeaderText}
+            title="Mercado Pago Point"
+          />
         </div>
       </WidthLayout>
       <WidthLayout>

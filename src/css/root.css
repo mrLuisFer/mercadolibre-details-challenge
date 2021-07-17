@@ -1,3 +1,16 @@
 :root {
+  --xl-container: 1200px;
   --primary-yellow: #fff159;
+  --primary-variant-50: #fff9bd;
+  --primary-variant-100: #fff693;
+  --primary-variant-200: #fff693;
+  --primary-variant-300: #fff583;
+  --primary-variant-400: #fff372;
+  --primary-variant-500: #fff159;
+  --primary-variant-600: #e6d950;
+  --primary-variant-700: #ccc147;
+  --primary-variant-800: #bfb543;
+  --primary-variant-900: #bfb543;
+
+  --secondary: rgba(65, 137, 230, 0.15);
 }

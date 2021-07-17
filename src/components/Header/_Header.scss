@@ -18,6 +18,8 @@
     min-width: 600px;
     padding-left: 1rem;
     background: var(--white);
+    border-radius: 2px;
+    border: 0 rgba(0, 0, 0, 0.2);
 
     &-input {
       border: none;

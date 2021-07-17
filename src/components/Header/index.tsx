@@ -1,6 +1,5 @@
 import WidthLayout from 'components/WidthLayout'
 import MeliLogo from 'assets/logo.png'
-import SearchIcon from 'assets/icons/search.svg'
 
 import Navbar from './Navbar'
 
@@ -24,12 +23,7 @@ export default function Header() {
               type="text"
             />
             <button className="header-form-search">
-              <img
-                alt="Buscar"
-                className="header-form-search-icon"
-                src={SearchIcon}
-                title="Buscar en Mercado Libre"
-              />
+              <i className="fas fa-search header-form-search-icon" />
             </button>
           </div>
         </div>

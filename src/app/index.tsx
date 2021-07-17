@@ -1,17 +1,15 @@
-import Navbar from '../components/Navbar'
+import Header from '../components/Header'
 
 import Routes from './routes'
 
 const App = () => {
   return (
-    <div>
+    <>
+      <Header />
       <div>
-        <Navbar />
-        <div>
-          <Routes />
-        </div>
+        <Routes />
       </div>
-    </div>
+    </>
   )
 }
 

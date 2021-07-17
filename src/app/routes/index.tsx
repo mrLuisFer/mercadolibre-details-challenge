@@ -1,11 +1,9 @@
-import React from 'react'
 import { Switch, Route, Redirect } from 'react-router-dom'
 
 import DetailsScreen from '../../product/screens/Details'
-
 import HomeScreen from '../screens/Home'
 
-const Routes: React.FC = () => {
+const Routes = () => {
   return (
     <Switch>
       <Route exact component={HomeScreen} path="/" />

@@ -26,53 +26,47 @@ export default {
       permalink:
         'https://articulo.mercadolibre.com.ar/MLA-741093357-peluche-stitch-angel-lilo-1-metro-100cm-reales-gigante-_JM',
       thumbnail_id: '978173-MLA32582347639_102019',
-      thumbnail:
-        'http://http2.mlstatic.com/D_978173-MLA32582347639_102019-I.jpg',
-      secure_thumbnail:
-        'https://http2.mlstatic.com/D_978173-MLA32582347639_102019-I.jpg',
+      thumbnail: 'http://http2.mlstatic.com/D_978173-MLA32582347639_102019-I.jpg',
+      secure_thumbnail: 'https://http2.mlstatic.com/D_978173-MLA32582347639_102019-I.jpg',
       pictures: [
         {
           id: '978173-MLA32582347639_102019',
           url: 'http://http2.mlstatic.com/D_978173-MLA32582347639_102019-O.jpg',
-          secure_url:
-            'https://http2.mlstatic.com/D_978173-MLA32582347639_102019-O.jpg',
+          secure_url: 'https://http2.mlstatic.com/D_978173-MLA32582347639_102019-O.jpg',
           size: '500x496',
           max_size: '1200x1192',
-          quality: '',
+          quality: ''
         },
         {
           id: '754004-MLA32299823528_092019',
           url: 'http://http2.mlstatic.com/D_754004-MLA32299823528_092019-O.jpg',
-          secure_url:
-            'https://http2.mlstatic.com/D_754004-MLA32299823528_092019-O.jpg',
+          secure_url: 'https://http2.mlstatic.com/D_754004-MLA32299823528_092019-O.jpg',
           size: '500x396',
           max_size: '1200x951',
-          quality: '',
+          quality: ''
         },
         {
           id: '616691-MLA27900381255_082018',
           url: 'http://http2.mlstatic.com/D_616691-MLA27900381255_082018-O.jpg',
-          secure_url:
-            'https://http2.mlstatic.com/D_616691-MLA27900381255_082018-O.jpg',
+          secure_url: 'https://http2.mlstatic.com/D_616691-MLA27900381255_082018-O.jpg',
           size: '500x500',
           max_size: '800x800',
-          quality: '',
+          quality: ''
         },
         {
           id: '918230-MLA31424182281_072019',
           url: 'http://http2.mlstatic.com/D_918230-MLA31424182281_072019-O.jpg',
-          secure_url:
-            'https://http2.mlstatic.com/D_918230-MLA31424182281_072019-O.jpg',
+          secure_url: 'https://http2.mlstatic.com/D_918230-MLA31424182281_072019-O.jpg',
           size: '281x500',
           max_size: '1080x1920',
-          quality: '',
-        },
+          quality: ''
+        }
       ],
       video_id: null,
       descriptions: [
         {
-          id: 'MLA741093357-1768858232',
-        },
+          id: 'MLA741093357-1768858232'
+        }
       ],
       accepts_mercadopago: true,
       non_mercado_pago_payment_methods: [],
@@ -85,46 +79,46 @@ export default {
               default: true,
               free_mode: 'country',
               free_shipping_flag: true,
-              value: null,
-            },
-          },
+              value: null
+            }
+          }
         ],
         tags: ['self_service_in', 'mandatory_free_shipping'],
         dimensions: null,
         local_pick_up: true,
         free_shipping: true,
         logistic_type: 'drop_off',
-        store_pick_up: false,
+        store_pick_up: false
       },
       international_delivery_mode: 'none',
       seller_address: {
         city: {
           id: 'TUxBQlZJTDE2MDBa',
-          name: 'Villa Pueyrredón',
+          name: 'Villa Pueyrredón'
         },
         state: {
           id: 'AR-C',
-          name: 'Capital Federal',
+          name: 'Capital Federal'
         },
         country: {
           id: 'AR',
-          name: 'Argentina',
+          name: 'Argentina'
         },
         search_location: {
           neighborhood: {
             id: 'TUxBQlZJTDE2MDBa',
-            name: 'Villa Pueyrredón',
+            name: 'Villa Pueyrredón'
           },
           city: {
             id: 'TUxBQ0NBUGZlZG1sYQ',
-            name: 'Capital Federal',
+            name: 'Capital Federal'
           },
           state: {
             id: 'TUxBUENBUGw3M2E1',
-            name: 'Capital Federal',
-          },
+            name: 'Capital Federal'
+          }
         },
-        id: 859653629,
+        id: 859653629
       },
       seller_contact: null,
       location: {},
@@ -137,7 +131,7 @@ export default {
           value_name: '99 años',
           value_struct: {
             number: 99,
-            unit: 'años',
+            unit: 'años'
           },
           values: [
             {
@@ -145,12 +139,12 @@ export default {
               name: '99 años',
               struct: {
                 number: 99,
-                unit: 'años',
-              },
-            },
+                unit: 'años'
+              }
+            }
           ],
           attribute_group_id: '',
-          attribute_group_name: '',
+          attribute_group_name: ''
         },
         {
           id: 'PRODUCT_TYPE',
@@ -162,11 +156,11 @@ export default {
             {
               id: null,
               name: 'peluche',
-              struct: null,
-            },
+              struct: null
+            }
           ],
           attribute_group_id: '',
-          attribute_group_name: '',
+          attribute_group_name: ''
         },
         {
           id: 'ANIMAL',
@@ -178,11 +172,11 @@ export default {
             {
               id: null,
               name: 'stitch',
-              struct: null,
-            },
+              struct: null
+            }
           ],
           attribute_group_id: 'OTHERS',
-          attribute_group_name: 'Otros',
+          attribute_group_name: 'Otros'
         },
         {
           id: 'BRAND',
@@ -194,11 +188,11 @@ export default {
             {
               id: '33243',
               name: 'Disney',
-              struct: null,
-            },
+              struct: null
+            }
           ],
           attribute_group_id: 'OTHERS',
-          attribute_group_name: 'Otros',
+          attribute_group_name: 'Otros'
         },
         {
           id: 'CHARACTER',
@@ -210,11 +204,11 @@ export default {
             {
               id: '4959202',
               name: 'Stitch',
-              struct: null,
-            },
+              struct: null
+            }
           ],
           attribute_group_id: 'OTHERS',
-          attribute_group_name: 'Otros',
+          attribute_group_name: 'Otros'
         },
         {
           id: 'FRANCHISE',
@@ -226,11 +220,11 @@ export default {
             {
               id: null,
               name: 'Stitch',
-              struct: null,
-            },
+              struct: null
+            }
           ],
           attribute_group_id: 'OTHERS',
-          attribute_group_name: 'Otros',
+          attribute_group_name: 'Otros'
         },
         {
           id: 'GTIN',
@@ -242,11 +236,11 @@ export default {
             {
               id: null,
               name: '8480017059031',
-              struct: null,
-            },
+              struct: null
+            }
           ],
           attribute_group_id: 'OTHERS',
-          attribute_group_name: 'Otros',
+          attribute_group_name: 'Otros'
         },
         {
           id: 'HEIGHT',
@@ -255,7 +249,7 @@ export default {
           value_name: '100 cm',
           value_struct: {
             number: 100,
-            unit: 'cm',
+            unit: 'cm'
           },
           values: [
             {
@@ -263,12 +257,12 @@ export default {
               name: '100 cm',
               struct: {
                 number: 100,
-                unit: 'cm',
-              },
-            },
+                unit: 'cm'
+              }
+            }
           ],
           attribute_group_id: 'OTHERS',
-          attribute_group_name: 'Otros',
+          attribute_group_name: 'Otros'
         },
         {
           id: 'IS_HYPOALLERGENIC_MATERIAL',
@@ -280,11 +274,11 @@ export default {
             {
               id: '242085',
               name: 'Sí',
-              struct: null,
-            },
+              struct: null
+            }
           ],
           attribute_group_id: 'OTHERS',
-          attribute_group_name: 'Otros',
+          attribute_group_name: 'Otros'
         },
         {
           id: 'ITEM_CONDITION',
@@ -296,11 +290,11 @@ export default {
             {
               id: '2230284',
               name: 'Nuevo',
-              struct: null,
-            },
+              struct: null
+            }
           ],
           attribute_group_id: 'OTHERS',
-          attribute_group_name: 'Otros',
+          attribute_group_name: 'Otros'
         },
         {
           id: 'MATERIAL',
@@ -312,11 +306,11 @@ export default {
             {
               id: '462324',
               name: 'Plush',
-              struct: null,
-            },
+              struct: null
+            }
           ],
           attribute_group_id: 'OTHERS',
-          attribute_group_name: 'Otros',
+          attribute_group_name: 'Otros'
         },
         {
           id: 'MIN_RECOMMENDED_AGE',
@@ -325,7 +319,7 @@ export default {
           value_name: '0 años',
           value_struct: {
             number: 0,
-            unit: 'años',
+            unit: 'años'
           },
           values: [
             {
@@ -333,12 +327,12 @@ export default {
               name: '0 años',
               struct: {
                 number: 0,
-                unit: 'años',
-              },
-            },
+                unit: 'años'
+              }
+            }
           ],
           attribute_group_id: 'OTHERS',
-          attribute_group_name: 'Otros',
+          attribute_group_name: 'Otros'
         },
         {
           id: 'MODEL',
@@ -350,11 +344,11 @@ export default {
             {
               id: null,
               name: 'Stitch',
-              struct: null,
-            },
+              struct: null
+            }
           ],
           attribute_group_id: 'OTHERS',
-          attribute_group_name: 'Otros',
+          attribute_group_name: 'Otros'
         },
         {
           id: 'SELLER_SKU',
@@ -366,11 +360,11 @@ export default {
             {
               id: null,
               name: '1metro',
-              struct: null,
-            },
+              struct: null
+            }
           ],
           attribute_group_id: 'OTHERS',
-          attribute_group_name: 'Otros',
+          attribute_group_name: 'Otros'
         },
         {
           id: 'WIDTH',
@@ -379,7 +373,7 @@ export default {
           value_name: '50 cm',
           value_struct: {
             number: 50,
-            unit: 'cm',
+            unit: 'cm'
           },
           values: [
             {
@@ -387,13 +381,13 @@ export default {
               name: '50 cm',
               struct: {
                 number: 50,
-                unit: 'cm',
-              },
-            },
+                unit: 'cm'
+              }
+            }
           ],
           attribute_group_id: 'OTHERS',
-          attribute_group_name: 'Otros',
-        },
+          attribute_group_name: 'Otros'
+        }
       ],
       warnings: [],
       listing_source: '',
@@ -406,7 +400,7 @@ export default {
         'brand_verified',
         'good_quality_picture',
         'immediate_payment',
-        'cart_eligible',
+        'cart_eligible'
       ],
       warranty: null,
       catalog_product_id: null,
@@ -419,7 +413,7 @@ export default {
       last_updated: '2021-05-04T14:10:53.000Z',
       health: 0.88,
       catalog_listing: false,
-      channels: ['marketplace'],
+      channels: ['marketplace']
     }
-  },
+  }
 }

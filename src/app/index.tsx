@@ -1,10 +1,8 @@
-import React from 'react'
-
 import Navbar from '../components/Navbar'
 
 import Routes from './routes'
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <div>
       <div>

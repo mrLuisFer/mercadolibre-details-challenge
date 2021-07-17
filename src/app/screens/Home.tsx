@@ -1,9 +1,7 @@
-import React from 'react'
-
-const HomeScreen: React.FC = () => {
+const HomeScreen = () => {
   return (
     <div>
-      <p>{`<HomeScreen />`}</p>
+      <p>HomeScreen </p>
       <br />
       <a href="/productId">Ver página de detalle de producto</a>
     </div>

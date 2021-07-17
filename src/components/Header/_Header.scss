@@ -1,3 +1,54 @@
 .header {
   background: var(--primary-yellow);
+  padding: 12px 0;
+
+  &-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-logo {
+    user-select: none;
+  }
+
+  &-form {
+    display: flex;
+    height: 40px;
+    min-width: 600px;
+    padding-left: 1rem;
+    background: var(--white);
+
+    &-input {
+      border: none;
+      outline: none;
+      width: 585px;
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    &-search {
+      outline: none;
+      border: none;
+      line-height: 1em;
+      background: var(--white);
+
+      &::before {
+        content: '';
+        display: block;
+        height: 26px;
+        border-left: 1px solid #e6e6e6;
+        position: absolute;
+        top: 6.5px;
+      }
+
+      &-icon {
+        width: 46px;
+        height: 21px;
+        color: #666;
+      }
+    }
+  }
 }

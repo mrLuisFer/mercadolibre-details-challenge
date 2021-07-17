@@ -3,5 +3,6 @@
   used within the components are exported
 */
 
+@use './WidthLayout/WidthLayout';
 @use './Header/Header';
 @use "./Header/Navbar/Navbar";

@@ -1,3 +1,30 @@
+// $textColor: rgba(0, 0, 0, 0.5);
+$textColor: #333;
+
 .navbar {
   position: relative;
+  display: flex;
+  flex-direction: row;
+  min-height: 36px;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  font-size: 14px;
+  color: $textColor;
+
+  &-sendto {
+    display: flex;
+    align-items: center;
+
+    &-icon {
+      font-size: 1.5em;
+      margin-right: 0.3rem;
+    }
+
+    &-text {
+      span {
+        display: block;
+      }
+    }
+  }
 }

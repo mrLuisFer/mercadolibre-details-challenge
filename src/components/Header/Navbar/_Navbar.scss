@@ -44,6 +44,8 @@ $secondaryTextColor: var(--secondary-text-color);
 
     &-item {
       transition: var(--transition);
+      cursor: pointer;
+
       &:hover {
         color: $primaryTextColor;
       }
@@ -55,11 +57,22 @@ $secondaryTextColor: var(--secondary-text-color);
     justify-content: flex-end;
     color: $primaryTextColor;
     column-gap: 1.4rem;
+
+    &-item {
+      transition: var(--transition);
+      cursor: pointer;
+
+      &:hover {
+        color: #000;
+      }
+    }
   }
 }
 
 // this is for the down arrow
 .categories {
+  transition: var(--transition);
+
   &::after {
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -77,5 +90,9 @@ $secondaryTextColor: var(--secondary-text-color);
     vertical-align: top;
     width: 6px;
     will-change: transform;
+
+    &:hover {
+      color: $primaryTextColor;
+    }
   }
 }

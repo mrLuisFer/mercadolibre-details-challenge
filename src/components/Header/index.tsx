@@ -1,4 +1,4 @@
-import WidthLayout from 'components/WidthLayout'
+import WidthLayout from 'components/common/WidthLayout'
 import MeliLogo from 'assets/utils/logo.png'
 import HeaderText from 'assets/utils/header-right-text.webp'
 

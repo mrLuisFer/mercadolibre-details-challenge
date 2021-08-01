@@ -1,5 +1,6 @@
 // $textColor: rgba(0, 0, 0, 0.5);
-$textColor: #333;
+$primaryTextColor: var(--primary-text-color);
+$secondaryTextColor: var(--secondary-text-color);
 
 .navbar {
   position: relative;
@@ -7,10 +8,10 @@ $textColor: #333;
   flex-direction: row;
   min-height: 36px;
   align-items: flex-end;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-top: 0.5rem;
   font-size: 14px;
-  color: $textColor;
+  color: $primaryTextColor;
 
   &-sendto {
     display: flex;
@@ -24,7 +25,57 @@ $textColor: #333;
     &-text {
       span {
         display: block;
+        opacity: 0.8;
+        font-size: 13px;
       }
     }
+  }
+
+  &-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  &-category {
+    margin-left: 6rem;
+    color: $secondaryTextColor;
+    column-gap: 1.2rem;
+
+    &-item {
+      transition: var(--transition);
+      &:hover {
+        color: $primaryTextColor;
+      }
+    }
+  }
+
+  &-account {
+    margin-left: 12rem;
+    justify-content: flex-end;
+    color: $primaryTextColor;
+    column-gap: 1.4rem;
+  }
+}
+
+// this is for the down arrow
+.categories {
+  &::after {
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -webkit-transition: all 0.3s ease-out;
+    border-style: solid;
+    border-width: 0 1.5px 1.5px 0;
+    color: rgba(0, 0, 0, 0.3);
+    content: '';
+    display: inline-block;
+    height: 6px;
+    margin: 3px 0 0 6px;
+    position: relative;
+    transform: rotate(45deg);
+    transition: all 0.3s ease-out;
+    vertical-align: top;
+    width: 6px;
+    will-change: transform;
   }
 }

@@ -15,4 +15,7 @@
   --secondary: rgba(65, 137, 230, 0.15);
   --white: #ffffff;
   --box-shadow: 0 1px 2px 0 rgb(0 0 0 / 15%);
+  --transition: 0.3s ease-out;
+  --primary-text-color: #333;
+  --secondary-text-color: rgba(51, 51, 51, 0.6);
 }

@@ -7,8 +7,23 @@ export default function Navbar() {
           <span>Enviar a</span> Córdoba 5822
         </p>
       </div>
-      <div>div 2</div>
-      <div>div 3</div>
+      <ul className="navbar-list navbar-category">
+        <li className="navbar-category-item categories">Categorias</li>
+        <li className="navbar-category-item">Ofertas</li>
+        <li className="navbar-category-item">Historial</li>
+        <li className="navbar-category-item">Supermercado</li>
+        <li className="navbar-category-item">Moda</li>
+        <li className="navbar-category-item">Vender</li>
+        <li className="navbar-category-item">Ayuda</li>
+      </ul>
+      <ul className="navbar-list navbar-account">
+        <li className="navbar-category-item">Crea tu cuenta</li>
+        <li className="navbar-category-item">Ingresa</li>
+        <li className="navbar-category-item">Mis compras</li>
+        <li className="navbar-category-item">
+          <i className="fas fa-shopping-cart" />
+        </li>
+      </ul>
     </nav>
   )
 }

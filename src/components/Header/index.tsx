@@ -9,8 +9,6 @@ import Navbar from './Navbar'
 export default function Header() {
   const [isRenderMenu, setIsRenderMenu] = useState<Boolean>(false)
 
-  console.log(isRenderMenu)
-
   return (
     <header className="header">
       <WidthLayout>
@@ -46,7 +44,7 @@ export default function Header() {
       <WidthLayout>
         <Navbar setIsRenderMenu={setIsRenderMenu} />
       </WidthLayout>
-      {isRenderMenu && <CategsMenu />}
+      {isRenderMenu && <CategsMenu setIsRenderMenu={setIsRenderMenu} />}
     </header>
   )
 }

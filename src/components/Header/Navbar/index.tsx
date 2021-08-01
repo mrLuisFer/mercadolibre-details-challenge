@@ -9,10 +9,6 @@ export default function Navbar({ setIsRenderMenu }: Props) {
     setIsRenderMenu(true)
   }
 
-  const hideCategsMenu = () => {
-    setIsRenderMenu(false)
-  }
-
   return (
     <nav className="navbar" role="navigation">
       <div className="navbar-sendto">
@@ -22,11 +18,7 @@ export default function Navbar({ setIsRenderMenu }: Props) {
         </p>
       </div>
       <ul className="navbar-list navbar-category">
-        <li
-          className="navbar-category-item categories"
-          onMouseEnter={renderCategsMenu}
-          onMouseLeave={hideCategsMenu}
-        >
+        <li className="navbar-category-item categories" onMouseOver={renderCategsMenu}>
           Categorias
         </li>
         <li className="navbar-category-item">Ofertas</li>

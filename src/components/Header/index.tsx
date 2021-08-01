@@ -1,10 +1,16 @@
+import { useState } from 'react'
 import WidthLayout from 'components/common/WidthLayout'
 import MeliLogo from 'assets/utils/logo.png'
 import HeaderText from 'assets/utils/header-right-text.webp'
+import CategsMenu from 'components/CategsMenu'
 
 import Navbar from './Navbar'
 
 export default function Header() {
+  const [isRenderMenu, setIsRenderMenu] = useState<Boolean>(false)
+
+  console.log(isRenderMenu)
+
   return (
     <header className="header">
       <WidthLayout>
@@ -38,8 +44,9 @@ export default function Header() {
         </div>
       </WidthLayout>
       <WidthLayout>
-        <Navbar />
+        <Navbar setIsRenderMenu={setIsRenderMenu} />
       </WidthLayout>
+      {isRenderMenu && <CategsMenu />}
     </header>
   )
 }

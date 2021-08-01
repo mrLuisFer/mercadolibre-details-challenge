@@ -1,9 +1,10 @@
-import { useState } from 'react'
-import CategsMenu from 'modals/CategsMenu'
+import { Dispatch, SetStateAction } from 'react'
 
-export default function Navbar() {
-  const [isRenderMenu, setIsRenderMenu] = useState<Boolean>(false)
+type Props = {
+  setIsRenderMenu: Dispatch<SetStateAction<Boolean>>
+}
 
+export default function Navbar({ setIsRenderMenu }: Props) {
   const renderCategsMenu = () => {
     setIsRenderMenu(true)
   }
@@ -11,8 +12,6 @@ export default function Navbar() {
   const hideCategsMenu = () => {
     setIsRenderMenu(false)
   }
-
-  console.log(isRenderMenu)
 
   return (
     <nav className="navbar" role="navigation">
@@ -45,7 +44,6 @@ export default function Navbar() {
           <i className="fas fa-shopping-cart" />
         </li>
       </ul>
-      {isRenderMenu && <CategsMenu />}
     </nav>
   )
 }

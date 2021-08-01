@@ -2,6 +2,9 @@
   background: var(--primary-yellow);
   padding: 10px 0;
   box-shadow: var(--box-shadow);
+  position: relative;
+  z-index: 99;
+  display: block;
 
   &-content {
     display: flex;

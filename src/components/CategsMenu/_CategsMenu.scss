@@ -5,7 +5,7 @@
   left: 12rem;
   position: relative;
   width: 257px;
-  padding: 2rem 0;
+  padding: 1.5rem 0;
 
   &-container {
     background: rgba(0, 0, 0, 0.2);
@@ -30,10 +30,11 @@
       &-link {
         color: #fff;
         font-size: 13px;
-        padding: 1rem;
+        padding: 0.9rem;
         text-decoration: none;
         display: flex;
         justify-content: space-between;
+        font-weight: 600;
       }
     }
   }

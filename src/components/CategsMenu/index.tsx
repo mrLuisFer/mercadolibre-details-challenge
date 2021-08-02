@@ -1,6 +1,7 @@
 import { Dispatch, SetStateAction, useState } from 'react'
 
 import { categs, TCategs } from './categories'
+import CategTechMenu from './CategTechMenu'
 
 type Props = {
   setIsRenderMenu: Dispatch<SetStateAction<Boolean>>
@@ -10,9 +11,9 @@ export default function CategsMenu({ setIsRenderMenu }: Props) {
   const [showTechMenu, setShowTechMenu] = useState<Boolean>(false)
   const techCateg = 'tecnologia'
 
-  const renderTechMenu = (category: TCategs) => {
+  const renderTechMenu = (category: TCategs, state: Boolean) => {
     if (category.name.toLowerCase() === techCateg) {
-      setShowTechMenu(true)
+      setShowTechMenu(state)
     }
   }
 
@@ -24,7 +25,8 @@ export default function CategsMenu({ setIsRenderMenu }: Props) {
             <li
               key={category.name}
               className="categsMenu-categories-item"
-              onMouseEnter={() => renderTechMenu(category)}
+              onMouseEnter={() => renderTechMenu(category, true)}
+              onMouseLeave={() => renderTechMenu(category, false)}
             >
               <a
                 className="categsMenu-categories-item-link"
@@ -40,8 +42,8 @@ export default function CategsMenu({ setIsRenderMenu }: Props) {
             </li>
           ))}
         </ul>
+        {showTechMenu && <CategTechMenu setShowTechMenu={setShowTechMenu} />}
       </div>
-      {showTechMenu && <div>Menu</div>}
     </div>
   )
 }

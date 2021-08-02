@@ -1,0 +1,50 @@
+.categTechMenu {
+  position: absolute;
+  background: #fff;
+  top: 0;
+  right: -46rem;
+  padding: 2.25rem;
+  font-size: 14px;
+  width: 735px;
+  height: 764px;
+
+  &-header {
+    border-bottom: 1px solid #ddd;
+    position: relative;
+    margin-bottom: 24px;
+
+    h1 {
+      font-weight: 400;
+    }
+  }
+
+  &-detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2.5rem 0;
+
+    &-content {
+      display: inline-block;
+    }
+
+    &-title {
+      font-size: 14px;
+      margin-bottom: 0.3rem;
+      cursor: pointer;
+    }
+
+    &-list {
+      list-style: none;
+    }
+
+    &-item {
+      line-height: 20px;
+      margin-bottom: 0.2rem;
+      cursor: pointer;
+
+      &:hover {
+        color: var(--primary-blue);
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.payMethods {
+  background: #fff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+
+  &-content {
+    display: flex;
+    padding: 1rem;
+    align-items: flex-start;
+  }
+
+  &-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &-icon {
+      border-radius: 100%;
+      color: var(--primary-blue);
+    }
+
+    &-text {
+      margin-left: 1rem;
+      height: -webkit-fill-available;
+
+      &-title {
+        font-weight: 400;
+        font-size: 18px;
+      }
+
+      &-link {
+        font-size: 14px;
+        color: var(--primary-blue);
+        text-decoration: none;
+        margin: 0;
+      }
+    }
+  }
+}

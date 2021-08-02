@@ -32,6 +32,7 @@
     margin-left: 0.5rem;
     outline: none;
     padding: 0.5rem 0.9rem;
+    transition: var(--transition);
 
     &:hover {
       filter: brightness(0.85);

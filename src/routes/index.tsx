@@ -1,7 +1,7 @@
 import { Switch, Route, Redirect } from 'react-router-dom'
 
 import DetailsScreen from '../product/screens/Details'
-import HomeScreen from '../app/screens'
+import HomeScreen from '../screens'
 
 const Routes = () => {
   return (
